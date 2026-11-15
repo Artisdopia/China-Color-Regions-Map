@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore recordings in the Colour Regions Chinese folk song collection by recorded province and cultural region.">
+  <title>Sound Atlas · China’s Colour Regions</title>
+  <link rel="stylesheet" href="style.css?v=20261114-02">
+</head>
+<body>
+  <div class="paper-emboss" aria-hidden="true"></div>
+  <header class="top"><a class="wordmark" href="#">SOUND ATLAS <span>/ COLOUR REGIONS</span></a><div class="topnote" data-i18n="topnote">A field guide to recorded folk song</div><button id="languageToggle" class="language-toggle" type="button" aria-label="Switch language">中文</button></header>
+  <main>
+    <section class="intro"><div class="eyebrow" data-i18n="eyebrow">CHINA · 15 CULTURAL REGIONS · COLLECTION EXPLORER</div><h1 data-i18n="headline">Many voices.<br><em>Many places.</em></h1><p data-i18n="intro">Explore the collection by its 15 cultural regions. Select one to see the provinces and recordings associated with it.</p></section>
+    <section class="explorer" aria-label="Interactive map and recording details">
+      <div class="map-wrap"><div id="map" role="application" aria-label="Map of China’s 15 cultural regions"></div><div class="map-label" data-i18n="mapLabel">CULTURAL REGION · RECORDINGS</div><div class="map-controls" role="group" aria-label="Map zoom controls"><button id="zoomIn" type="button" aria-label="Zoom in">+</button><button id="zoomOut" type="button" aria-label="Zoom out">−</button><button id="zoomReset" type="button">Reset</button></div><div class="legend"><span data-i18n="markerLegend">Marker size = recordings</span><i class="legend-dot small"></i><span data-i18n="few">Fewer</span><i class="legend-dot large"></i><span data-i18n="many">More</span></div></div>
+      <aside class="panel" aria-live="polite"><div class="panel-head"><div class="eyebrow" data-i18n="selectProvince">SELECT A CULTURAL REGION</div><select id="provinceSelect" aria-label="Choose a cultural region"><option value="" data-i18n="choose">Choose a cultural region…</option></select></div><div id="details"><div class="empty"><span class="compass">✳</span><h2 data-i18n="start">15 cultural regions, many voices</h2><p data-i18n="startText">Move over a cultural-region marker or select one to see its provinces and recordings.</p><div class="hint" data-i18n="hint">Select a cultural region to zoom in</div></div></div></aside>
+    </section>
+    <section class="method"><div class="method-mark" data-i18n="fieldnotes">FIELD<br>NOTES</div><div><h2 data-i18n="howTo">How to read this map</h2><p data-i18n="method">The overview groups recordings by the collection’s 15 cultural regions. Each circle represents recordings assigned to that cultural region; selecting it reveals contributing provinces. A cultural region can span several provinces, and a province can contain recordings from multiple cultural regions. Circle size represents recording counts.</p><p class="source"><span data-i18n="boundarySource">Boundary geometry: Tianditu national-standard vector data, distributed as GeoJSON by</span> <a href="https://geojson.cn/data/atlas/tiandi" target="_blank" rel="noreferrer">GeoJSON.cn</a> (CGCS2000 / EPSG:4490). <span data-i18n="sourceEnd">Geometry is simplified for web display. Metadata source:</span> <a href="https://huggingface.co/datasets/ProjectAquarius/colour-regions" target="_blank" rel="noreferrer">ProjectAquarius/colour-regions on Hugging Face</a>. <span data-i18n="noAudio">No audio is hosted here.</span></p></div></section>
+  </main>
+  <footer><span>SOUND ATLAS · COLOUR REGIONS</span><span id="datasetNote">Loading collection…</span></footer>
+  <script src="app.js?v=20261114-02"></script>
+</body></html>
