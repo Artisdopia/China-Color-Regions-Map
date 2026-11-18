@@ -551,7 +551,14 @@
     "黎族民歌（海南话歌曲）": "Li folk songs (Hainanese songs)",
     "黎族民歌（罗尼调）": "Li folk songs (Ronnie tune)",
     "龙舟歌": "Dragon Boat Song",
-    "龙舟歌（十寿歌）": "Dragon Boat Song (Tenth Birthday Song)"
+    "龙舟歌（十寿歌）": "Dragon Boat Song (Tenth Birthday Song)",
+    "二人转": "Errenzhuan (Northeast duet)",
+    "京剧": "Peking opera",
+    "京剧打击乐": "Peking opera percussion",
+    "器乐": "Instrumental",
+    "器乐联奏": "Instrumental medley",
+    "民乐合奏": "Chinese instrumental ensemble",
+    "民族管弦乐": "Chinese orchestral music"
   },
   "place": {
     "(吉林) · prefecture": "(Jilin) · prefecture",
@@ -1136,7 +1143,8 @@
     "龙岩武平 · county": "Longyan Wuping · county",
     "龙岩永定 · county": "Longyan Yongding · county",
     "龙岩长汀 · county": "Longyan Changting · county",
-    "龙江森工林区 · county": "Longjiang Forestry District · county"
+    "龙江森工林区 · county": "Longjiang Forestry District · county",
+    "铁岭 · prefecture": "Tieling · prefecture"
   },
   "ethnicGroup": {
     "东乡": "Dongxiang",
@@ -2613,6 +2621,31 @@
     "龙舟歌（街头卖唱，1982）": "Dragon Boat Song (Singing on the Street, 1982)",
     "龙舟歌（龙舟说唱）": "Dragon Boat Song (Dragon Boat Rap)",
     "龙船调": "Dragon boat tune",
-    "龙骨坡抬工号子": "Dragon Bone Slope Lifter’s Call"
+    "龙骨坡抬工号子": "Dragon Bone Slope Lifter’s Call",
+    "东北大秧歌": "Northeast Yangge Dance",
+    "京剧打击乐合奏1": "Peking Opera Percussion Ensemble 1",
+    "京剧打击乐合奏2": "Peking Opera Percussion Ensemble 2",
+    "京剧打击乐合奏3": "Peking Opera Percussion Ensemble 3",
+    "京调": "Peking Tune",
+    "包公断后": "Judge Bao Rules on the Empress",
+    "北京喜讯传边寨": "Good News from Beijing Reaches the Border Village",
+    "双阳公主": "Princess Shuangyang",
+    "大将名五更": "Famous Generals Through the Five Watches",
+    "扎花帐": "Embroidering the Bed Curtain",
+    "打渔杀家": "The Fisherman’s Revenge",
+    "摔西瓜": "Smashing the Watermelon",
+    "月牙五更": "Crescent Moon Through the Five Watches",
+    "朱元璋斩婿": "Zhu Yuanzhang Executes His Son-in-Law",
+    "民族乐器演奏联奏（地道战等）": "Chinese Instrument Medley (Tunnel Warfare, etc.)",
+    "猪八戒背媳妇": "Zhu Bajie Carries His Bride",
+    "王二姐思夫": "Second Sister Wang Longs for Her Husband",
+    "白蛇传": "Legend of the White Snake",
+    "秦香莲": "Qin Xianglian",
+    "绣云肩": "Embroidering the Cloud Collar",
+    "老北京胡同": "Old Beijing Hutongs",
+    "西厢听琴": "Listening to the Qin in the West Chamber",
+    "西厢记": "Romance of the West Chamber",
+    "贵妃醉酒": "The Drunken Concubine",
+    "门楼": "The Gate Tower"
   }
 }
