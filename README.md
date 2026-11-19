@@ -1,20 +1,20 @@
 # China-Color-Regions-Map
-Interactive map of Chinese folk song recordings by cultural region
+Interactive map of Chinese folk song recordings by color region
 
-# China Colour Regions Map
+# China Color Regions Map
 
-An interactive map for exploring the Project Aquarius Chinese folk song collection by cultural region and recording province.
+An interactive map for exploring the Project Aquarius Chinese folk song collection by color region and recording province.
 
 ## Explore the map
 
 [Open the interactive map](https://artisdopia.github.io/China-Color-Regions-Map/china-colour-regions-map-region-name-on-zoom/)
 
-- Hover over or select a cultural-region marker to explore the region.
+- Hover over or select a color-region marker to explore the region.
 - Select a province to see its recordings and dataset tags.
 - Click a tag to find matching recordings from that province.
 - Use the map controls to zoom in and out.
 
-The map summarizes the collection’s 15 cultural regions. Circle sizes represent recording counts. A province can include recordings classified in more than one cultural region, so the regional tags shown for a province describe the recordings collected there.
+The map summarizes the collection’s 15 color regions for folk songs. Circle sizes represent recording counts. A province can include recordings classified in more than one color region, so the regional tags shown for a province describe the recordings collected there.
 
 ## Data and sources
 

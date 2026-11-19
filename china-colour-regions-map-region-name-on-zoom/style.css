@@ -107,8 +107,9 @@ body::after {
 
 main { max-width: 1380px; margin: auto; padding: 62px 5vw 40px; }
 .intro { max-width: 670px; margin: 0 0 42px; }
-.intro p a { color: inherit; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
-.intro p a:hover { text-decoration-color: currentColor; }
+.hf-badge { display: inline-block; margin-top: 18px; transition: opacity .15s; }
+.hf-badge:hover { opacity: .85; }
+.hf-badge img { display: block; }
 .eyebrow, .map-label, .legend, .hint, .method-mark, footer, .region-heading {
   font: 10px/1.5 "Georgia", "Songti SC", "SimSun", serif;
   letter-spacing: .12em;
