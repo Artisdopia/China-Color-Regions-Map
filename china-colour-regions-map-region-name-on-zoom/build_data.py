@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the map's audio-free data bundle from the private HF recordings.parquet export."""
+"""Build the map's audio-free data bundle from the HF recordings.parquet export."""
 import argparse
 import json
 from collections import Counter, defaultdict
@@ -20,7 +20,7 @@ ALIASES = {
 }
 
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument("recordings", type=Path, help="Local copy of data/recordings.parquet from the private Hugging Face dataset")
+parser.add_argument("recordings", type=Path, help="Local copy of data/recordings.parquet from the Hugging Face dataset")
 parser.add_argument("--output", type=Path, default=OUT, help=f"Output JSON path (default: {OUT})")
 args = parser.parse_args()
 

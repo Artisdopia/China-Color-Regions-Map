@@ -1,6 +1,6 @@
 # China Color Regions interactive map
 
-An audio-free, browser-based map of the Color Regions collection. The map data is built from `data/recordings.parquet` in the private [ProjectAquarius/colour-regions Hugging Face dataset](https://huggingface.co/datasets/ProjectAquarius/colour-regions). Province borders come from Tianditu national-standard vector geometry, distributed in GeoJSON format by [GeoJSON.cn](https://geojson.cn/data/atlas/tiandi). The included GeoJSON is drawn as an interactive SVG, so no mapping library, CDN, or basemap service is needed. Readers can switch between Chinese and English. The overview shows the dataset's 15 color regions for folk songs; each circle represents recordings assigned to one color region. Selecting a circle zooms in to its contributing provinces, where province profiles show songs and color-coded metadata tags.
+An audio-free, browser-based map of the Color Regions collection. The map data is built from `data/recordings.parquet` in the public [ProjectAquarius/colour-regions Hugging Face dataset](https://huggingface.co/datasets/ProjectAquarius/colour-regions). Province borders come from Tianditu national-standard vector geometry, distributed in GeoJSON format by [GeoJSON.cn](https://geojson.cn/data/atlas/tiandi). The included GeoJSON is drawn as an interactive SVG, so no mapping library, CDN, or basemap service is needed. Readers can switch between Chinese and English. The overview shows the dataset's 15 color regions for folk songs; each circle represents recordings assigned to one color region. Selecting a circle zooms in to its contributing provinces, where province profiles show songs and color-coded metadata tags.
 
 The 15 color-region categories come directly from the dataset's `region` field. A region may span several provinces, and a province may contain recordings associated with several color regions. Circles are placed near the weighted center of their contributing provinces; connector lines indicate when a marker has been nudged to reduce overlap. Circle size represents recordings assigned to that color region. Region names are labeled beside their circles. Province fills are neutral so they do not imply that each province belongs to only one color region. The map geometry is fit with balanced whitespace and centered within the map panel. The beige page texture uses the supplied `emboss-pattern.png` as a repeating background tile, tuned to the lighter paper shade `#F6F4EE`.
 
@@ -8,7 +8,7 @@ Tags are built only from the dataset's `region`, `genre`, `ethnicGroup`, `perfor
 
 ## Run locally
 
-Download `data/recordings.parquet` from the private Hugging Face dataset to a local path. Install the `pyarrow` reader, regenerate the summary bundle, then serve the folder over HTTP:
+Download `data/recordings.parquet` from the Hugging Face dataset to a local path. Install the `pyarrow` reader, regenerate the summary bundle, then serve the folder over HTTP:
 
 ```powershell
 python -m pip install pyarrow
@@ -30,4 +30,4 @@ Open `http://localhost:8001`. The site uses the included boundary GeoJSON and da
 
 The source geometry is derived from public Tianditu/GeoJSON.cn vectors and simplified for web display. For research requiring legally authoritative boundaries or survey-grade precision, cite and obtain the relevant official dataset directly from the National Geomatics Center of China. See [China's public map-data portal](https://www.webmap.cn/main.do?method=index1).
 
-The Hugging Face dataset is private and marked pre-release. Confirm the dataset maintainers intend the generated map metadata to be shared publicly before publishing this bundle in a public repository or on a public website.
+The Hugging Face dataset is public under CC BY-NC-SA 4.0. The map uses only its metadata and links; it does not include audio.
