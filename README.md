@@ -7,7 +7,7 @@ An interactive map for exploring the Project Aquarius Chinese folk song collecti
 
 ## Explore the map
 
-[Open the interactive map](https://artisdopia.github.io/China-Color-Regions-Map/china-colour-regions-map-region-name-on-zoom/)
+[Open the interactive map](https://artisdopia.github.io/China-Color-Regions-Map/)
 
 - Hover over or select a color-region marker to explore the region.
 - Select a province to see its recordings and dataset tags.

@@ -12,8 +12,7 @@ Download `data/recordings.parquet` from the Hugging Face dataset to a local path
 
 ```powershell
 python -m pip install pyarrow
-python web/china-map/build_data.py 'C:\path\to\recordings.parquet'
-cd web/china-map
+python build_data.py 'C:\path\to\recordings.parquet'
 python -m http.server 8001
 ```
 
